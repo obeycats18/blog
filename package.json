@@ -1,0 +1,30 @@
+{
+	"name": "blog",
+	"version": "1.0.0",
+	"description": "Monorepo for blog (server - Nest.js, client - React.js)",
+	"main": "index.js",
+	"private": "true",
+	"scripts": {},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/obeycats18/blog.git"
+	},
+	"keywords": [
+		"nest",
+		"nest.js",
+		"react",
+		"react.js",
+		"blog",
+		"typescript"
+	],
+	"author": "<KapishDima (kapishdima@gmail.com>)",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/obeycats18/blog/issues"
+	},
+	"homepage": "https://github.com/obeycats18/blog#readme",
+	"workspaces": [
+		"client",
+		"server"
+	]
+}

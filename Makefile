@@ -4,4 +4,10 @@ run-client:
 run-server:
 	cd server && yarn start
 
-run: run-server run-client
+install-server: 
+	cd server && yarn -s
+
+install-client: 
+	cd client && yarn -s
+
+install: install-server install-client
